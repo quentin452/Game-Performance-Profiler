@@ -2,7 +2,7 @@
 
 Just a Profiler for CPP Games and software
 
-#How to use examples
+# How to use
 
 1 : Use one of these example or you can use both
 
