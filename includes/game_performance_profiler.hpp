@@ -135,7 +135,7 @@ class GamePerformanceProfiler {
 #endif
     }
 
-    void printUsingLogMessage() {
+    void printWithLogMessageAsync() {
 #ifdef PERFORMANCE_MONITOR
         try {
             if (profilingData.empty()) {
