@@ -15,7 +15,6 @@ This first version will probably use more RAM because each call to `PROFILE_SCOP
 
 void ExampleMethod() {
     PROFILE_SCOPED(std::string("Catz-Voxel-Engine:") + ":" + __FUNCTION__)
-    VkSemaphoreCreateInfo semaphoreInfo = {};
     // YOUR CODE
 }
 ```
