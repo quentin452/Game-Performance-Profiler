@@ -45,7 +45,7 @@ void createSemaphores() {
 #include <game_performance_profiler.hpp>
 
 // Call this in your exit game method
-gamePerformanceProfiler.print();
+gamePerformanceProfiler.printWithLogMessageAsync();
 
 ```
 or this if you don't use ThreadedLoggerForCpp and he will copy the print in the path you written in the first argument of  printWithoutLogMessageAsyn
